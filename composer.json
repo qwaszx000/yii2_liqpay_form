@@ -1,0 +1,14 @@
+{
+	"name": "qwaszx000/liqpay_form",
+	"authors": [
+		{
+			"name": "qwaszx000"
+		}
+	],
+	"require": {},
+	"autoload": {
+		"psr-0": {
+			"LiqPay": "src/"
+		}
+	}
+}
