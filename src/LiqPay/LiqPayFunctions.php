@@ -11,6 +11,9 @@ class LiqPayFunctions{
 
 		foreach ($params as $key => $value) {
 			//"$key": "$value",
+			if(is_null($value) or empty($value)){
+				continue;
+			}
 			$data .= '"' . $key . '": ' . '"' . $value . '",';
 		}
 
